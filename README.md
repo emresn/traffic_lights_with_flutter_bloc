@@ -1,16 +1,16 @@
 # traffic_lights_with_flutter_bloc
 
-A new Flutter project.
+A traffic lights management application with bloc state management. 
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+It is an simple example code for how bloc cubit manage the states.
 
-A few resources to get you started if this is your first Flutter project:
+This project uses bloc state management packages for rendering traffic lights.
+A timer was setted for 5 seconds. The timer will start to count when press the start button. 
+When timer is equal 2 seconds, yellow light will be blinked. 
+And after the timer ending, green light will be blinked. 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Packages
+- flutter_bloc: ^7.3.1 
+- equatable: ^2.0.3

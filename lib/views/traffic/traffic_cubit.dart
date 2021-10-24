@@ -6,7 +6,7 @@ class TrafficCubit extends Cubit<TrafficState> {
   bool redLight = false;
   bool yellowLight = false;
   bool greenLight = false;
-  int initialSeconds = 6;
+  int initialSeconds = 5;
   int leftSeconds = 0;
 
   TrafficCubit() : super(InitialState());

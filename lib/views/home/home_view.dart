@@ -8,9 +8,10 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: context.dynamicWidth(0.8),
-      height: context.dynamicHeight(0.5),
+      width: context.dynamicWidth(1),
+      height: context.dynamicHeight(1),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: const [
           TrafficView(),
         ],
